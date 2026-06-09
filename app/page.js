@@ -61,6 +61,8 @@ export default function Home() {
       <div className="sticky-bottom-bar">
         {/* Call Us */}
         <a
+          id="mobile-call"
+
           href="tel:+919718344024"
           onClick={() => handleBarClick('call')}
           className="flex-1 flex flex-col items-center justify-center gap-0.5 !py-2 !px-0 transition-all duration-200"
