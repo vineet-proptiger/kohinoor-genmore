@@ -6,7 +6,6 @@
 
 /* ─── CONFIG ─────────────────────────────────────────────────── */
 import { SHEET_WEBHOOK, PROPTIGER_URL, CITY_ID, CITY_SLUG } from '../../../lib/config'
-export const runtime = 'edge'
 /* ────────────────────────────────────────────────────────────── */
 
 function clean(v) {
